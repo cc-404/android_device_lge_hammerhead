@@ -154,6 +154,10 @@ TARGET_USES_INTERACTION_BOOST := true
 # Legacy memfd
 TARGET_HAS_MEMFD_BACKPORT := true
 
+# custom
+BOARD_USES_QCOM_HARDWARE := true
+# end
+
 # Tweaks for 'low ram' devices
 -include device/lge/hammerhead/lowram/BoardConfig.mk
 
