@@ -104,11 +104,6 @@ Return<void> Power::powerHintAsync_1_2(PowerHint_1_2 hint, int32_t data) {
     return powerHint(static_cast<PowerHint_1_0>(hint), data);
 }
 
-Return<int32_t> Power::getFeature(Feature feature) {
-    
-    return -1;
-}
-
 status_t Power::registerAsSystemService() {
     status_t ret = 0;
 
