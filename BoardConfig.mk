@@ -156,7 +156,7 @@ TARGET_HAS_MEMFD_BACKPORT := true
 
 # custom
 # BOARD_USES_QCOM_HARDWARE := true
-BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+# BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 # end
 
 # Tweaks for 'low ram' devices
