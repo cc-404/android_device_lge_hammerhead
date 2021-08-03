@@ -128,7 +128,7 @@ DEVICE_PACKAGE_OVERLAYS := \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay/lineage-sdk \
+    $(LOCAL_PATH)/overlay/havoc-sdk \
     $(LOCAL_PATH)/overlay/packages/apps/Snap
 
 PRODUCT_PACKAGES += \
@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+    vendor.havoc.livedisplay@2.0-service-sysfs
 
 # TimeKeep
 PRODUCT_PACKAGES += \
@@ -155,7 +155,7 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.havoc.trust@1.0-service
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
@@ -519,4 +519,4 @@ $(call inherit-product-if-exists, $(LOCAL_PATH)/wlan/bcmdhd/firmware/bcm4339/dev
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2016-10-05
+    ro.havoc.build.vendor_security_patch=2016-10-05

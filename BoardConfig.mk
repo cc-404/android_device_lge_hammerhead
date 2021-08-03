@@ -155,7 +155,8 @@ TARGET_USES_INTERACTION_BOOST := true
 TARGET_HAS_MEMFD_BACKPORT := true
 
 # custom
-BOARD_USES_QCOM_HARDWARE := true
+# BOARD_USES_QCOM_HARDWARE := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 # end
 
 # Tweaks for 'low ram' devices

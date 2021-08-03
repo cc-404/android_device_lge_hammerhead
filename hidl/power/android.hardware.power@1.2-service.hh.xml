@@ -9,7 +9,7 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.power</name>
+        <name>vendor.havoc.power</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
